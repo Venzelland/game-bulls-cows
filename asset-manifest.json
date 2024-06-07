@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/game-bulls-cows/static/css/main.06a0a0b7.css",
+    "main.js": "/game-bulls-cows/static/js/main.e64d2e39.js",
+    "index.html": "/game-bulls-cows/index.html",
+    "main.06a0a0b7.css.map": "/game-bulls-cows/static/css/main.06a0a0b7.css.map",
+    "main.e64d2e39.js.map": "/game-bulls-cows/static/js/main.e64d2e39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a0a0b7.css",
+    "static/js/main.e64d2e39.js"
+  ]
+}
