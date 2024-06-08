@@ -54,6 +54,12 @@ const App = () => {
         setMessage('');
     };
 
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            handleGuess();
+        }
+    }
+
     return (
         <div className="container">
             <h1>Быки и Коровы</h1>
@@ -61,6 +67,7 @@ const App = () => {
                 type="text"
                 value={guess}
                 onChange={(e) => setGuess(e.target.value)}
+                onKeyPress={handleKeyPress}
                 maxLength="4"
                 placeholder="Введите число"
             />
